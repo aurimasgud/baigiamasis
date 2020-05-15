@@ -1,0 +1,1077 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+    font-family: Montserrat;
+   
+}
+
+header {
+width: 100%;
+background-color: #1C1C1C;
+margin: 0 auto;
+top: 0;
+left: 0;
+position: fixed;
+z-index: 1000;
+}
+
+
+nav {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+  
+    background-color: #1C1C1C;
+    max-height: 72px;
+    justify-content: center;
+
+    
+}
+
+li {
+    display: inline;
+    padding-left: 30px;
+    
+  }
+  
+  nav ul li a {
+    text-decoration: indigo;
+    color:#FFFFFF;
+    opacity: 69%;
+  }
+  
+  nav ul:hover li a{
+   color: #FFFFFF;
+   opacity: 69%;
+  }
+
+ 
+  
+  
+  a.navigation:hover {
+   color: #FFFFFF;
+   opacity: 100%;
+  }
+
+   a {
+    float: right;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    padding-bottom: 25px;
+    padding-top: 28px;
+    font-size: 14px;
+    border-bottom: 100% solid transparent;
+  }
+
+ a:hover {
+    border-bottom: 2px solid #E27866;
+    border-bottom-width: 100%;
+  }
+
+  ul {
+    margin: 0px;
+  }
+
+  img {
+      float: left;
+      padding: 10px;
+  }
+
+ .blokas {
+   background-color: yellow;
+   margin-top: 100px;
+   width: 100px;
+   height: 100px;
+ }
+
+
+ .hero {
+   margin-top: 72px;
+   margin: 0px;
+   position: relative;
+   background-image: url('herobackground-min.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   display: flex;
+   -webkit-box-align: center;
+   padding: 0;
+   min-height: 933px;
+   z-index: 0;
+ }
+
+
+ .hero:after {
+  content:'';
+  position:absolute;
+  width:100%;
+  height:100%;
+  background: #1C1C1C;
+  opacity: 63%;
+  z-index: -1;
+}
+
+
+
+ .container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  
+ }
+
+
+
+ .herobackground {
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    justify-content: center;
+    padding: 40px 0;
+  
+ }
+
+
+
+
+.hero .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+ .herologotipas {
+  width: 246px;
+  height: 107px;
+  padding-top: 160px;
+}
+
+
+
+.hero .kaire {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.herotekstas {
+  width: 451px;
+}
+
+h1 {
+  color: white;
+  width: 430px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h1 {
+  position:relative;
+
+
+}
+h1:after {
+  content:'';
+  position:absolute;
+  left:0; right:0;
+  margin-top: 60px;
+  width: 84px;
+  height: 3px;
+  background: white;
+}
+
+.herotekstas p {
+  color: white;
+  font-size: 16px;
+  padding-top: 24px;
+  width: 651px;
+  font-weight: 600;
+}
+
+
+.download {
+  width: 135px;
+  height: 42px;
+  background-color: transparent;
+  border: solid 2px white;
+  color: white;
+  text-align: center;
+  margin-top: 43px;
+  
+}
+
+.download:hover {
+  background-color: #E27866;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+
+
+
+.hero form {
+  width: 260px;
+  height: 424px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+}
+
+.hero .formdiv {
+  width: 360px;
+  height: 424px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3%;
+  margin: 0 auto;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  margin-top: 150px;
+
+}
+
+
+.hero button {
+  width: 360px;
+  height: 57px;
+  background-color: #41D395;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 5%;
+  border-style: none;
+  letter-spacing: 1px;
+  font-style: Montserrat;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.hero button:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.tryheading {
+  width: 360px;
+  height: 57px;
+  text-align: center;
+  background-color: #F5F5F5;
+}
+
+.tryheading strong {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  vertical-align: middle;
+  line-height: 57px;
+}
+
+.tryheading strong span {
+  color:#E27866;
+}
+
+.yourdetails {
+  font-weight: 600;
+  font-size: 16px;
+  font-style: bold;
+  padding-top: 25px;
+  padding-left: 51px;
+
+}
+
+.type {
+  font-weight: 600;
+  font-size: 16px;
+  font-style: bold;
+  padding-left: 51px;
+}
+
+
+.hero input {
+  margin-left: 51px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .social {
+  width: 100%;
+  background-color: #FFFFFF;
+  min-height: 105px;
+  display: flex;
+
+ }
+
+
+ .social .socialLogo {
+   margin-left: 50px
+
+ }
+
+ .social .sociallisting {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   float: right;
+ }
+
+ .socialtext {
+   width: 390px;
+   display:flex;
+   flex-direction: column;
+   padding-top: 15px;
+  
+
+ }
+
+ .social .container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   
+ }
+
+ .headeriai {
+   font-size: 20px;
+   font-weight: lighter;
+   color: #333333;
+   margin: 0px;
+ }
+
+ .tekstai {
+   font-size: 14px;
+   color: #86878B;
+ }
+
+ 
+.juodas {
+  width: 100%;
+  background-color: #1C1C1C;
+  min-height: 600px;
+}
+
+.juodologotipas {
+  width: 390px;
+  height: 170px;
+  margin-left: 60px;
+  padding-top: 213px;
+}
+
+.juodas .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.juodotekstai {
+  width: 451px;
+  padding-top: 96px;
+}
+
+h3 {
+  color: white;
+  width: 314px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+
+h3 {
+  position:relative;
+
+}
+h3:after {
+  content:'';
+  position:absolute;
+  left:0; right:0;
+  margin-top: 55px;
+  width: 200px;
+  height: 2px;
+  background: #E27866;
+}
+
+.juodotekstai p {
+  color: white;
+  font-size: 14px;
+  padding-top: 27px;
+}
+
+.rutuliukas1 {
+  height: 50px;
+  width: 50px;
+  background-color: #E27866;
+  border-radius: 50%;
+  margin-top: 45px;
+}
+
+
+
+.rutuliukas1 img { 
+  margin: 0 auto; 
+  width: 27px;
+  height: 18px;
+  object-fit: contain;
+  
+}
+
+.rutuliukai {
+  display: flex;
+  flex-direction: column;
+}
+
+.rutuliukai p {
+  width: 300px;
+  font-size: 14px;
+  padding-top: 0px;
+  position: absolute;
+}
+
+.pirmas {
+  margin-left: 75px;
+  margin-top: 50px;
+}
+
+.antras {
+  margin-left: 75px;
+  margin-top: 150px;
+}
+
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.whythisisawesome h2{
+  padding-top: 95px;
+  margin: 0px;
+  position: relative;
+  color: #212121;
+
+}
+
+.whythisisawesome {
+  width: 100%;
+  background-color: #FFFFFF;
+  min-height: 600px;
+  
+ 
+}
+
+.whythisisawesome h2:after {
+  content:'';
+  font-size: 5px;
+  position:absolute;
+  left:0; right:0;
+  margin:10px auto;
+  margin-top: 70px;
+  width:64px;
+  height:2px;
+  background: #E27866;
+}
+
+.whythisisawesome p {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 14px;
+  color: #86878B;
+  padding-bottom: 65px;
+}
+
+
+
+.whythisisawesome .box p {
+ 
+  padding-top: 27px;
+}
+
+.whythisisawesome .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 960px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+
+.whythisisawesome .content {
+  height: 194px;
+  width: 286px;
+  padding-right: 50px;
+  padding-left: 50px; 
+
+}
+
+
+
+
+.whythisisawesome .rutuliukas1 {
+  background-color: transparent;
+  border: solid 2px #E27866;
+  margin-bottom: 50px;
+  left:0; right:0;
+  margin:35px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pricingoptions h2{
+  padding-top: 95px;
+  margin: 0px;
+  position: relative;
+  color: white;
+
+}
+
+.pricingoptions {
+  width: 100%;
+  background-color: #6696E2;
+  min-height: 883px;
+  
+ 
+}
+
+.pricingoptions h2:after {
+  content:'';
+  position:absolute;
+  left:0; right:0;
+  margin:10px auto;
+  margin-top: 70px;
+  width:64px;
+  height:2px;
+  background: #41D395;
+}
+
+.pricingoptions p {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 14px;
+  color:white;
+  padding-bottom: 65px;
+
+}
+
+.pricingoptions .blokai {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  
+  
+}
+.pricingoptions .content {
+  width: 343px;
+  height: 448px;
+  margin: 20px;
+ 
+ 
+
+}
+
+.pricingoptions .kaina  {
+  width: 343px;
+  height: 208px;
+  background-color: black;
+  border-radius: 3% 3% 0 0 ;
+  display: flex;
+  flex-direction: column;
+  color: white;
+ text-align: center;
+}
+
+.pricingoptions .naudos  {
+  width: 343px;
+  height: 235px;
+  background-color: white;
+  border-top: solid 6px #41D395;
+  border-radius: 0 0 3% 3%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.pricingoptions .vidurinis {
+  border-top: none;
+}
+
+.pricingoptions .special  {
+  width: 343px;
+  height: 34px;
+  background-color:#41D395;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  display: table-cell;
+  vertical-align: middle;
+  
+}
+
+.pricingoptions .special span {
+  padding-top: 100px;
+}
+
+.pricingoptions .naudos span {
+  padding-top: 20px;
+  font-size: 14px;
+  color: #86878B;
+
+  
+}
+
+.pricingoptions em {
+  font-size: 20px;
+  font-style: normal;
+  margin-bottom: 14px;
+  margin-top: 14px;
+}
+
+.pricingoptions .kaina p {
+ font-size: 35px;
+ margin: 0;
+ padding:0;
+}
+
+
+.pricingoptions p span {
+  font-size: 94px;
+}
+
+.pricingoptions small {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+.whatourcustomers h2{
+  padding-top: 95px;
+  margin: 0px;
+  position: relative;
+  color: black;
+
+}
+
+.whatourcustomers {
+  width: 100%;
+  background-color: white;
+  min-height: 600px;
+  
+ 
+}
+
+.whatourcustomers h2:after {
+  content:'';
+  position:absolute;
+  left:0; right:0;
+  margin:10px auto;
+  margin-top: 70px;
+  width:64px;
+  height:2px;
+  background: #6696E2;
+}
+
+
+
+.swiper-container {
+  height: 236px;
+  width: 1057px;
+  margin-top: 90px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 273px;
+  height: 236px;
+  position: relative;
+}
+
+.swiper-pagination-bullet {
+  background-color: transparent;
+  border: solid 1px #E27866;
+}
+
+.swiper-pagination-bullet-active {
+  background:#E27866;
+}
+
+
+
+.swiper-container .tekstas {
+  background-color: #6696E2;
+  border-radius: 5%;
+  color: white;
+  padding: 10px;
+  text-align: left;
+ 
+  margin-bottom: 100px;
+}
+
+
+.swiper-container .tekstas::after {
+  content: '';
+  top: 124px;
+  left: 420px;
+  width: 20px;
+  height: 20px;
+  background: #6696E2;
+  transform: rotate(45deg);
+  position: absolute;
+
+}
+
+
+
+
+
+
+
+.contactus h2{
+  padding-top: 95px;
+  margin: 0px;
+  position: relative;
+  color: white;
+
+}
+
+.contactus {
+  width: 100%;
+  background-color:#E27866;
+  min-height: 600px;
+  
+}
+
+.contactus h2:after {
+  content:'';
+  position:absolute;
+  left:0; right:0;
+  margin:10px auto;
+  margin-top: 70px;
+  width:64px;
+  height:2px;
+  background-color: white;
+}
+
+.contactus p {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 14px;
+  color:white;
+  padding-bottom: 27px;
+}
+
+
+.contactus form {
+  width: 260px;
+  height: 248px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 33px;
+}
+
+.contactus .formdiv {
+  width: 390px;
+  height: 314px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3%;
+  margin: 0 auto;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  
+  
+}
+
+label {
+  text-decoration: underline;
+  color: #1C1C1C;
+  
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid grey;
+  margin-bottom:  37px;
+  font-size: 12px;
+  
+}
+
+
+
+.contactus button {
+  width: 158px;
+  height: 48px;
+  background-color: #41D395;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 5%;
+  border-style: none;
+  letter-spacing: 1px;
+  font-style: Montserrat;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.contactus button:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+
+
+footer {
+  width: 100%;
+  background-color: black;
+  min-height: 105px;
+  display: flex;
+ }
+
+
+ footer .socialLogo {
+   margin-right: 100px;
+   width: 15px;
+   height: 25px;
+
+ }
+
+ footer .sociallisting {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   float: right;
+ }
+
+
+
+ footer .container {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   
+ }
+
+  .footertext {
+   display:flex;
+   align-items: center;
+ }
+
+ .footertext p {
+   font-size: 18px;
+ }
+
+
+
+
+ @media only screen and (max-width: 600px) {
+  
+   .hero .container, .pricingoptions .blokai, .social .container, .juodas .container, .whythisisawesome .box  {
+    display:flex;
+    flex-direction: column;
+  }
+
+  
+.hero .heroteksta p, .social .socialtext {
+  text-align: center;
+}
+
+.whythisisawesome {
+  min-height: 800px;
+}
+
+.pricingoptions .content {
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer .container{
+  display:flex;
+  flex-direction: column-reverse;
+}
+
+.sociallisting, .pricingoptions .content {
+  margin: 0 auto;
+}
+
+footer .socialLogo {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 30px;
+}
+.footertext {
+  margin: 0 auto;
+  padding-top:30px;
+  padding-bottom: 20px;
+}
+
+
+.whythisisawesome .box {
+  padding-top: 150px;
+  padding-bottom: 350px;
+}
+
+.whythisisawesome .content {
+  padding-top: 80px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+
+
+.juodologotipas {
+  margin-left: 30px;
+  padding-top: 60px
+}
+
+.juodas .container, .juodas h3 {
+  margin: 0 auto;
+  
+}
+
+
+
+
+.social .socialLogo {
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.socialtext {
+  margin: 0 auto;
+  padding-top: 45px;
+  padding-bottom: 30px;
+ }
+
+ .herotekstas, .herologotipas {
+   margin-left: 50px;
+   margin-right: 50px;
+ }
+
+ .herotekstas p {
+   max-width: 400px;
+   text-align: center;
+ }
+
+ .download {
+   margin: 0 auto;
+   margin-top: 100px;
+ }
+
+ .desine .formdiv {
+   margin-bottom: 60px;
+ }
+
+ .contactus {
+   height: 650px;
+ }
+
+ .juodotekstai {
+   margin-bottom: 100px;
+ }
+
+ .rutuliukai {
+   margin-left: 50px;
+ }
+
+ .juodotekstai p {
+   max-width: 450px;
+   margin-left: 50px;
+ }
+
+ .rutuliukai p {
+   max-width: 300px;
+   margin-left: 75px;
+ }
+
+
+ 
+
+ header {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  min-height: 50px;
+}
+
+header #myLinks {
+  display: none;
+}
+
+header a {
+ 
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+nav {
+  min-height: 300px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+header {
+  position: relative;
+}
+
+
+}
