@@ -235,7 +235,7 @@ h1:after {
   background-color: white;
   display: flex;
   flex-direction: column;
-  border-radius: 3%;
+  border-radius: 10px;
   margin: 0 auto;
   box-shadow: 0 1px 2px rgba(0,0,0,0.15);
   margin-top: 150px;
@@ -250,17 +250,22 @@ h1:after {
   color: white;
   font-weight: 600;
   font-size: 15px;
-  border-radius: 5%;
+  border-radius: 0 0 10px 10px;
   border-style: none;
   letter-spacing: 1px;
   font-style: Montserrat;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
+Form {
+  
+  border-radius: 10px;
+}
 .hero button:hover {
   opacity: 80%;
   cursor: pointer;
+
 }
 
 .tryheading {
@@ -268,6 +273,8 @@ h1:after {
   height: 57px;
   text-align: center;
   background-color: #F5F5F5;
+  border-radius: 30px 30px 0 0 ;
+
 }
 
 .tryheading strong {
@@ -302,19 +309,6 @@ h1:after {
 .hero input {
   margin-left: 51px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  .social {
   width: 100%;
@@ -390,6 +384,7 @@ h1:after {
   padding-top: 96px;
 }
 
+
 h3 {
   color: white;
   width: 314px;
@@ -424,17 +419,22 @@ h3:after {
   background-color: #E27866;
   border-radius: 50%;
   margin-top: 45px;
+  position: relative;
 }
 
 
 
-.rutuliukas1 img { 
-  margin: 0 auto; 
-  width: 27px;
-  height: 18px;
-  object-fit: contain;
+.rutuliukas1 img {  
+    position: absolute;
+      margin: auto;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+  }
   
-}
+  
+
 
 .rutuliukai {
   display: flex;
@@ -538,9 +538,17 @@ h2 {
   margin-bottom: 50px;
   left:0; right:0;
   margin:35px auto;
+  position: relative;
 }
 
-
+.whythisisawesome img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 
 
 
@@ -721,11 +729,43 @@ h2 {
 
 .swiper-slide {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: flex-end;
   width: 273px;
   height: 236px;
-  position: relative;
+  
+}
+
+.apacia {
+  display: flex;
+  flex-direction: row;
+  min-width: 100px;
+  margin-top: 20px;
+
+}
+
+.vardas {
+  min-width: 80px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.apacia strong {
+  width: 150px;
+  font-size: 20px;
+  font-weight: 400;
+  
+  
+
+}
+
+.apacia p {
+  font-size: 14px;
+  color: #86878B;
+
+}
+.apacia {
+  margin-right: 100px;
 }
 
 .swiper-pagination-bullet {
@@ -741,12 +781,12 @@ h2 {
 
 .swiper-container .tekstas {
   background-color: #6696E2;
-  border-radius: 5%;
+  border-radius: 10%;
   color: white;
   padding: 10px;
   text-align: left;
- 
-  margin-bottom: 100px;
+  max-width: 300px;
+  
 }
 
 
@@ -1021,6 +1061,8 @@ footer .socialLogo {
    margin-left: 50px;
  }
 
+
+
  .juodotekstai p {
    max-width: 450px;
    margin-left: 50px;
@@ -1072,6 +1114,11 @@ ul {
 header {
   position: relative;
 }
+
+.swiper-container .tekstas {
+  margin-right: 600px;
+}
+
 
 
 }
