@@ -573,9 +573,9 @@ h2 {
   width: 100%;
   background-color: #6696E2;
   min-height: 883px;
-  
- 
 }
+
+
 
 .pricingoptions h2:after {
   content:'';
@@ -688,7 +688,11 @@ h2 {
 }
 
 
-
+.pricingoptions .content:hover {
+  opacity: 90%;
+  transform: scale(1.2);
+  transition: transform 1s ease-in-out;
+}
 
 
 
